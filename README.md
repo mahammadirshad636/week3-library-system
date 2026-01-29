@@ -64,9 +64,3 @@ Follow prompts to provide ISBN, title, author, year and member IDs. Borrowing se
 ## 🔧 Notes & Troubleshooting
 - The `pom.xml` includes the `exec-maven-plugin` configured for `library.Main` so `mvn exec:java` runs the app. If `mvn` is not available on your PATH, install Maven or use the manual `javac`/`java` commands above.
 - If you encounter the "compact source file does not have main method" error when single-file running, run the compiled class instead (see commands above).
-
-## ✅ Next Steps
-- (Optional) I can add a VS Code `launch.json` entry to run `library.Main` directly from the editor. Want me to add it?
-
----
-If you want any section shortened or expanded (examples, tests, or screenshots), tell me which part to change.
